@@ -10,8 +10,9 @@
 </script>
 
 <template>
-<section class="ft-container">
-    <section class="list-wrap">
+<div class="bg-wrap">
+    <section class="ft-container">
+     <section class="list-wrap">
         <div class="ft-wrap">
             <div class="inlineB">
            <ul>
@@ -53,7 +54,7 @@
                 
             </ul>
         </div>
-        <div>
+        <div class="li-base">
             <ul>
                 <li><h3>SHOP</h3></li>
                 <li>Shop DC</li>
@@ -62,10 +63,12 @@
         </div>
         </div>
         <div>
-            <img src="img/dc-logo-bg.png" alt="">
+            <img src="" alt="">
         </div>
+     </section>
     </section>
-</section>
+</div>
+   
    
     
 
@@ -74,8 +77,11 @@
 <style scoped>
     .ft-container{
         position: relative;
-        background-image: url(img/footer-bg.jpg);
-        background-size: contain;
+        background-image: url(img/dc-logo-bg.png);
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: 85% 60%;
+        object-fit: scale-down ;
         z-index: 0;
         height: 45vh;
     }
@@ -93,7 +99,7 @@
         padding-top: 2rem;
     }
     ul{
-        margin:  0 1rem;
+        margin:  0 1.3rem;
         list-style: none;
         font-size: 10px;
         line-height: 15px;
@@ -106,6 +112,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 30%;
+        position: relative;
     }
     img{
         position: absolute;
@@ -114,5 +121,13 @@
         z-index: -1;
         width: 500px;
         
+        
+    }
+    .li-base{
+        top: 9rem;
+        position: absolute;
+    }
+    .bg-wrap{
+        background-image: url(img/footer-bg.jpg);
     }
 </style>

@@ -59,6 +59,6 @@
     .sign-up{
         padding: 0.5rem;
         color: white;
-        border: 4px solid #0C7CEC;
+        border: 3px solid #0C7CEC;
     }
 </style>

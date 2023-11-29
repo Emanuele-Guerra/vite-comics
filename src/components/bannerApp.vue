@@ -52,6 +52,7 @@
         font-size: 12px;
         color: white;
         background-color: #0C7CEC;
+        z-index: 1;
         
     }
     img{
