@@ -5,23 +5,23 @@
         return{
             bannerContent: [
                 {
-                    img:"../assets/img/buy-comics-digital-comics.png",
+                    img:"img/buy-comics-digital-comics.png",
                     directory:"DIGITAL COMICS"
                 },
                 {
-                    img:"../assets/img/buy-comics-merchandise.png",
+                    img:"img/buy-comics-merchandise.png",
                     directory:"DC MERCHANDISE"
                 },
                 {
-                    img:"../assets/img/buy-comics-subscriptions.png",
+                    img:"img/buy-comics-subscriptions.png",
                     directory:"SUBSCRIPTION"
                 },
                 {
-                    img:"../assets/img/buy-comics-shop-locator.png",
+                    img:"img/buy-comics-shop-locator.png",
                     directory:"COMIC SHOP LOCATOR"
                 },
                 {
-                    img:"../assets/img/buy-dc-power-visa.svg",
+                    img:"img/buy-dc-power-visa.svg",
                     directory:"DC POWER VISA"
                 },
             ]
@@ -34,9 +34,10 @@
     <section>
         <div class="wrapper">
             <div v-for="i in bannerContent">
-                <div>
+                <div class="inside-wrapper">
                     <img :src="i.img" alt="">
                     <p>{{ i.directory }}</p>
+                    
                 </div>
             </div>
         </div>
@@ -51,10 +52,17 @@
         font-size: 12px;
         color: white;
         background-color: #0C7CEC;
+        
     }
     img{
-        width: 60px;
+        width: 40px;
+        max-height: 50px;
+        margin-right: 0.5rem;
     }
+    img:hover{
+        scale: 1.2;
+    }
+   
     .wrapper{
         margin: 0 auto;
         width: 70%;
@@ -62,5 +70,9 @@
         justify-content: space-between;
         align-items: center;
         height: 140px;
+    }
+    .inside-wrapper{
+        display: flex;
+        align-items: center;
     }
 </style>

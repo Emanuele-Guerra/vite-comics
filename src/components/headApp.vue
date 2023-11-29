@@ -55,7 +55,7 @@
     <div>
         <nav>
             <div>
-                <img src="../assets/img/dc-logo.png" alt="">
+                <img src="img/dc-logo.png" alt="">
             </div>
             <div>
                 <a v-for="i in navLinks" href="">{{ i.name }}</a>

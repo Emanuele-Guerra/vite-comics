@@ -20,7 +20,7 @@
 
 <style scoped>
     section{
-        min-height: 20%;
+        min-height: 90px;
         width: 100%;
         color: white;
         background-color: black;
