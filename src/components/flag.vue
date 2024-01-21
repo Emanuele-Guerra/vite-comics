@@ -24,6 +24,9 @@
      </div>
        
     </section>
+    <div class="bottom">
+
+    </div>
 </template>
 
 
@@ -31,7 +34,7 @@
     section{
         width: 100%;
         height: 100px;
-        background-color: #212121;
+        background-color: #2a2a2a;
         z-index: 1;
         
     }
@@ -60,5 +63,10 @@
         padding: 0.5rem;
         color: white;
         border: 3px solid #0C7CEC;
+    }
+    .bottom{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(29, 29, 29);
     }
 </style>

@@ -70,7 +70,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 140px;
+        height: 110px;
     }
     .inside-wrapper{
         display: flex;

@@ -81,9 +81,8 @@
         background-size: 30%;
         background-repeat: no-repeat;
         background-position: 85% 60%;
-        object-fit: scale-down ;
         z-index: 0;
-        height: 45vh;
+        height: 40vh;
     }
     li{
         color: grey;
